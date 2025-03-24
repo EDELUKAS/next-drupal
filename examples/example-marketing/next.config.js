@@ -5,7 +5,7 @@ module.exports = {
     defaultLocale: "en",
   },
   images: {
-    domains: [process.env.NEXT_IMAGE_DOMAIN],
+    domains: ["images.unsplash.com"],
   },
   async rewrites() {
     return [
